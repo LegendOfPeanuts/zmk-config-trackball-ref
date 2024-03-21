@@ -40,7 +40,7 @@
 / {
   trackball_listener {
     compatible = "zmk,input-listener";
-    device = <&spi0>;
+    device = <&trackball>;
 
     xy-swap;
     y-invert;
