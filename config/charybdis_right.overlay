@@ -36,3 +36,14 @@
         automouse-layer = <5>;
     };
 };
+
+/ {
+  trackball_listener {
+    compatible = "zmk,input-listener";
+    device = <&spi0>;
+
+    xy-swap;
+    y-invert;
+    x-invert;
+  };
+};
